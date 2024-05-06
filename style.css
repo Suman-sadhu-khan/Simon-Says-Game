@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 1rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.red{
+    background-color: #d95980;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.purple{
+    background-color: #819ff0;
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: rgb(50, 200, 50);
+}
+.bgred{
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(160deg, #fd0505 0%, #fe0a0a 100%);
+}
+
+#startBtn{
+    height: 30px;
+    width: 60px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(30, 30, 242);
+    border-radius: 50px;
+    border-width: 0;
+    color:white;
+    font-weight: 400;
+}
+#startBtn:hover{
+    box-shadow: rgba(2, 1, 1, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0px 4px 3px 0;
+    font-weight: 500;
+    background-color: #3466f0;
+    
+}
+#quitBtn{
+    height: 30px;
+    width: 60px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(30, 30, 242);
+    border-radius: 50px;
+    border-width: 0;
+    color:white;
+    font-weight: 400;
+    background-color: #fe0a0a;
+    margin-left: 1rem;
+}
+#quitBtn:hover{
+    box-shadow: rgba(2, 1, 1, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0px 4px 3px 0;
+    font-weight: 500;
+    background-color: #f17b7b;
+    
+}
+
+.rule{
+        text-decoration: none;
+        height: 30px;
+        width: 60px;
+        margin-top: 40px;
+        cursor: pointer;
+        background-color: rgb(30, 30, 242);
+        border-radius: 50px;
+        border-width: 0;
+        color: rgb(231, 225, 225);
+        font-weight: 400;
+        background-color: #893eeb;
+        padding: 1rem;
+
+}
+
+.rules {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    color: #073678;
+    flex-direction: column;
+}
